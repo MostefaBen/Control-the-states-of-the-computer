@@ -6,13 +6,13 @@ using namespace std;
 void main() {
     
     system("COLOR 9");
-    cout << endl << "1 - Shutdown the computer." << endl
-           << endl << "2 - Shutdown the computer without warning the user." << endl
-           << endl << "3 - Cancel the shutdown of the computer." << endl
-            << endl << "4 - Restart the computer." << endl
-            << endl << "5 - Hibernate." << endl
-            << endl << "6 - Log out." << endl
-            << endl << "7 - Exit." << endl;
+    cout << endl << "1 : Shutdown the computer." << endl
+         << endl << "2 : Shutdown the computer without warning the user." << endl
+         << endl << "3 : Cancel the shutdown of the computer." << endl
+         << endl << "4 : Restart the computer." << endl
+         << endl << "5 : Hibernate." << endl
+         << endl << "6 : Log out." << endl
+         << endl << "7 : Exit." << endl;
 
     cout << endl << "Put your choice : " << endl;
     char c;
@@ -42,7 +42,7 @@ void main() {
         case '7':system("EXIT");
             break;
 
-        default:cout << "Error, Put again" << endl;
+        default:cout << "Error, choose again" << endl;
     }
 
 }
